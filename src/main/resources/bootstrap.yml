@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      #服务名
+      name: config-client
+      #环境
+      profile: dev
+      uri: http://localhost:8888/
+      #分支
+      label: master
